@@ -9,19 +9,19 @@ function App() {
     {
         id: 1,
         text: "Doctor's Appointment",
-        day: "Nov 15th at 2:30pm",
+        day: "Mon Nov 15th at 14:30",
         reminder: true,
     },
     {
         id: 2,
         text: "School Meeting",
-        day: "Nov 16th at 8:30am",
+        day: "Tue Nov 16th at 8:30",
         reminder: true,
     },
     {
         id: 3,
         text: "Shopping Trip",
-        day: "Nov 16th at 3:30pm",
+        day: "Tue Nov 16th at 3:30",
         reminder: false,
     }
 ])

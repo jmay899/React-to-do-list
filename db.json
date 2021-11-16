@@ -19,8 +19,8 @@
       "id": 4
     },
     {
-      "text": "No date test",
-      "day": "",
+      "text": "test",
+      "day": "2021-11-17T21:00:00.000Z",
       "reminder": false,
       "id": 5
     }

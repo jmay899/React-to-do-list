@@ -10,7 +10,13 @@ const Task = ({ task,onDelete,onToggle }) => {
                 <FaTimes style={{color:"red", cursor: "pointer"}}
                 onClick={() => onDelete(task.id) }/> 
              </h3>
-            <p>{ task.day.toString().slice(4,10)+" at "+task.day.toString().slice(16,21) }</p>
+            <p>
+                { 
+                    (new Date(task.day)).toString().slice(4,16) +
+                    " at " + 
+                    (new Date(task.day)).toString().slice(16,21)
+                }
+            </p>
             
         </div>
     )

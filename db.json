@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Doctor's Appointment",
+      "day": "2021-11-17T19:30:00.000Z",
+      "reminder": true
+    },
+    {
+      "id": 3,
+      "text": "Shopping Trip",
+      "day": "2021-11-18T20:30:00.000Z",
+      "reminder": false
+    },
+    {
+      "text": "Oil Change",
+      "day": "2021-11-19T15:30:00.000Z",
+      "reminder": false,
+      "id": 4
+    }
+  ]
+}

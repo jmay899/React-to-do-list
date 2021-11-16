@@ -12,9 +12,13 @@ const Task = ({ task,onDelete,onToggle }) => {
              </h3>
             <p>
                 { 
-                    (new Date(task.day)).toString().slice(4,16) +
-                    " at " + 
-                    (new Date(task.day)).toString().slice(16,21)
+                    (task.day ? 
+                        (new Date(task.day)).toString().slice(4,16) +
+                        " at " + 
+                        (new Date(task.day)).toString().slice(16,21)
+                        :
+                        ""
+                    )
                 }
             </p>
             

@@ -33,7 +33,7 @@ const AddTask = ({onAdd}) => {
             <div className="form-control">
                 <label>Date and time</label>
                 <ReactDatePicker 
-                    dateFormat="MM/dd/yy" 
+                    dateFormat="MM/dd/yy hh:mm aa" 
                     showTimeSelect
                     minDate={new Date()} 
                     selected={day} 
